@@ -26,7 +26,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+![professions](https://github.com/angeldzzz23/CommunityBoard/assets/29695936/deb0d6ad-9667-4029-ac9b-230091be64c0)
+
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
@@ -37,7 +39,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+No challenages
 
 ## License
 
