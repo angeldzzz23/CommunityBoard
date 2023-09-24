@@ -3,40 +3,40 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: black;
+  background-color: white;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+
+ body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.card-container {
+  display: flex;
+  justify-content: space-between; /* Distribute cards evenly */
 }
 
 .card {
-  padding: 2em;
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  flex: 0 1 calc(33.33% - 16px); /* 3 cards in a row, adjust as needed */
+  margin-right: 16px; /* Spacing between cards, adjust as needed */
 }
 
-.read-the-docs {
-  color: #888;
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
 }
